@@ -22,12 +22,15 @@ body{
 }
 
 .container{
-  max-width:80%;
-  max-height:80%;
+  height: 95vh;
+  max-width:95%;
+  /* max-height:80%; */
+
   margin:0 auto;
   background:white;
   padding:20px;
   border-radius:8px;
+
 
  
 }
@@ -45,22 +48,24 @@ body{
 h1{
   font-family: Helvetica;
   /* letter-spacing: 2px; */
-  font-size:4vw;  
-  padding:.5vw;
+  font-size:5vw;  
+  padding:1px;
   text-align:center;
   transition-duration: 0.4s;
 }
 
 .caption{
   font-family: Helvetica;
-  width:30vw;
+  width:40vw;
   margin: auto;
-  font-size:3vw; 
+  font-size:4vw; 
   display: flex;
   justify-content: center;
   align-items: center;
   text-align:center;
   padding:.5vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .captiontwo{
   display:none;
@@ -70,8 +75,10 @@ h1{
   justify-content: center;
   align-items: center;
   text-align:center;
-  font-size:3vw; 
+  font-size:4vw; 
   padding:.5vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 
@@ -88,11 +95,11 @@ p{
 .topup{
   font-family: tran;
   letter-spacing: 2px;
-  font-size:6.5vw; 
+  font-size:7vw; 
   color:#b30000ff;
-  -webkit-text-fill-color: #b30000ff;
+  /* -webkit-text-fill-color: #b30000ff; */
   -webkit-text-stroke: .2vw white;
-  -moz-text-fill-color: #b30000ff;
+  /* -moz-text-fill-color: #b30000ff; */
 }
 
 
@@ -100,7 +107,7 @@ p{
   display:none;
   color:blue;
   border-color:red;
-  font-size:4vw; 
+  font-size:5vw; 
   border-width: medium;
     padding:.2vw;
   margin-left: auto;
@@ -111,7 +118,7 @@ p{
   display:none;
   color:blue;
   border-color:red;
-  font-size:4vw; 
+  font-size:5vw; 
   border-width: medium;
   padding:.2vw;
   margin-left: auto;
@@ -123,15 +130,17 @@ p{
    color:white;
   background-color:#580babff;
   border-color:#c5c2c8;
-  font-size:3vw; 
+  font-size:4vw; 
   margin-left: auto;
   margin-right: auto;
-  margin-top:.5vw;
+  /* margin-top:.5vw; */
   padding:1vw;
   border-radius:10px;
   border-style:inset;
   border-width:medium;
   transition-duration: 0.4s;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 
@@ -150,11 +159,13 @@ p{
   font-size:4vw; 
   margin-left: auto;
   margin-right: auto;
-  margin-top:.5vw;
+  /* margin-top:.5vw; */
   padding:1vw;
   border-radius:10px;
   border-style:inset;
   border-width:medium;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .button-two:hover {
@@ -165,19 +176,21 @@ p{
 }
 
 .message {
-  margin: 1vw;
+  /* margin: 1vw; */
   text-align: center;
   font-family: Helvetica;
-  font-size:3vw;
+  font-size:5vw;
   transition-duration: 0.4s;
   text-decoration: underline overline;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .description {
   margin: 1vw;
   text-align: center;
   font-family: Helvetica;
-  font-size:2.5vw;
+  font-size:3.5vw;
   transition-duration: 0.4s;
 }
 
@@ -185,15 +198,17 @@ p{
   body {
     flex-direction:column;
   }
+
+
   .message {
-  margin: 1vw;
+  margin: 2vw;
   text-align: center;
   font-family: Helvetica;
   font-size:4vw;
 }
 
 .description {
-  margin: 1vw;
+  margin: 2vw;
   text-align: center;
   font-family: Helvetica;
   font-size:2vw;
@@ -201,21 +216,24 @@ p{
   
   .button-one{
   padding: .2vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .button-two{
   padding: .2vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
   .innards {
-    margin-top:1vw;
+    margin-top:2vw;
   }
+
 }
 
 @media screen and (min-width: 800px) {
+
+
   .innards {
     display: flex;
     /* justify-content:left; */
@@ -223,6 +241,7 @@ p{
     align-items: center;
     margin-top:1vw;
   }
+
   
   .message {
   margin: 1vw;
@@ -255,12 +274,16 @@ p{
 .caption{
   font-size:1.3vw; 
   padding:.5vw;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 .captiontwo{
   font-size:1.3vw; 
   text-align:center;
   margin: auto;
   padding:.5vw;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
   .answer-one{
   font-size:2vw; 
@@ -286,5 +309,7 @@ p{
 }
   .message{
     font-size:2vw; 
+    margin-top: 3%;
+  margin-bottom: 3%;
   }
 }

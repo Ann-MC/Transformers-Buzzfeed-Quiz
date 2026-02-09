@@ -5,7 +5,9 @@ let two = document.querySelector(".answer-two");
 let caption = document.querySelector(".caption");
 let captiontwo = document.querySelector(".captiontwo");
 let image = document.querySelector(".hero-img");
-let header = document.querySelector(".topup");
+let heading = document.querySelector(".topup");
+let blocky = document.querySelector(".blocky");
+let breaker = document.querySelector(".break");
 
 
 let autobot="Gorilla";
@@ -36,12 +38,18 @@ buttonTwo.addEventListener("click", function () {
     let one = document.querySelector(".answer-one");
     let two = document.querySelector(".answer-two");
     image.src ="images/autobots.jpg";
-    image.style.borderColor = "#2872d4ff"
+    image.style.borderColor = "#b30000ff"
     message.innerHTML = "Autobot";
     
+    
+
     description.innerHTML = "Autobots are a generally heroic, honorable group, they tend to be dedicated to peace, and feel a need to protect other races from the Decepticons. As a result, they are usually Transformers who change into non-combat oriented alternate modes such as domestic vehicles, cars, trucks, or rescue vehicles. Overall, they usually find themselves defending both their own race and other species against the Decepticons and upholding justice and freedom throughout the galaxy.";
     
     document.body.style.background = "#b30000ff";
+
+    // heading.style.color="#2872d4ff"
+    // blocky.style.background="#b30000ff"
+
     buttonTwo.style.display = "none";
     one.style.display = "none";
     two.style.display = "none";
@@ -58,6 +66,10 @@ buttonTwo.addEventListener("click", function () {
     description.innerHTML = "Decepticons are concerned with such things as conquering Cybertron, defeating the Autobots, amassing large quantities of energon, developing powerful weaponry, and beating people up. Not necessarily in that order. Unlike the Autobots, whose leader is a Prime bearing a Matrix, the Decepticons are led by the most powerful of their ranks. This tends to cause some conflict, given how generally every Decepticon thinks that they're the most powerful.";
     
     document.body.style.background = "#580babff";
+
+    // heading.style.color="#580babff"
+    // blocky.style.background="#c5c2c8"
+
     buttonTwo.style.display = "none";
     one.style.display = "none";
     two.style.display = "none";
