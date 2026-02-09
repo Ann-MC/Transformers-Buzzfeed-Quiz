@@ -10,10 +10,10 @@ let blocky = document.querySelector(".blocky");
 let breaker = document.querySelector(".break");
 
 
-let autobot="Gorilla";
-let decepticon="Shark";
-let autotwo="Axe"
-let deceptwo="Flail"
+let autobot="gorilla";
+let decepticon="shark";
+let autotwo="axe"
+let deceptwo="flail"
 
 
 buttonOne.addEventListener("click", function () {
@@ -29,8 +29,8 @@ buttonOne.addEventListener("click", function () {
 });
 
 buttonTwo.addEventListener("click", function () {
-  let one = document.querySelector(".answer-one").value;
-  let two = document.querySelector(".answer-two").value;
+  let one = document.querySelector(".answer-one").value.toLowerCase();
+  let two = document.querySelector(".answer-two").value.toLowerCase();
   let message = document.querySelector(".message");
   let description = document.querySelector(".description");
   
