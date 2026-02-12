@@ -127,6 +127,7 @@ p{
 
 .button-one{
   display:flex;
+  font-family: Helvetica;
    color:white;
   background-color:#580babff;
   border-color:#c5c2c8;
@@ -155,6 +156,7 @@ p{
 
 .button-two{
   display:none;
+  font-family: Helvetica;
   color:white;
   background-color:#580babff;
   border-color:#c5c2c8;
@@ -208,7 +210,7 @@ p{
   margin: 2vw;
   text-align: center;
   font-family: tran;
-  letter-spacing: 10px;
+  letter-spacing: 2px;
   font-size:4vw;
 }
 
@@ -216,7 +218,7 @@ p{
   margin: 2vw;
   text-align: center;
   font-family: Helvetica;
-  font-size:2vw;
+  font-size:3vw;
 }
   
   .button-one{
@@ -260,7 +262,7 @@ p{
   margin: 1vw;
   text-align: center;
   font-family: Helvetica;
-  font-size:1.2vw;
+  font-size:1.3vw;
   margin: auto;
   width:25vw;
 }
